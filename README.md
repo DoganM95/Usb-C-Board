@@ -19,4 +19,20 @@ This repository contains the design files for a simple yet versatile USB-C PCB. 
 - **Cut Limit Line:** A clearly marked cut limit line indicates the maximum cuttable range of the PCB without losing functionality.
 - **Enhanced Power Wires:** Thick VCC and GND wires are designed to support high amperage loads.
 
+## Building Steps
+
+To assemble the USB-C PCB, follow these steps:
+
+1. **Solder the USB-C Port:**
+   - Position the USB-C port on the PCB.
+   - Solder each pin carefully, ensuring good connection without bridging contacts.
+
+2. **Clean Up Excess Solder:**
+   - Inspect the solder joints and use a solder wick to remove any excess solder from the fine pins of the USB-C port.
+   - Reheat the solder and apply the wick; the wick will absorb the excess, leaving a clean joint.
+
+3. **Solder the Resistors:**
+   - Place the 5.1 KOhm resistors in their designated spots on the PCB.
+   - Solder the resistors, ensuring they are securely attached to the board.
+
 Feel free to explore the design files, contribute, and suggest improvements to this project.
