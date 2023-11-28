@@ -35,9 +35,4 @@ To assemble the USB-C PCB, follow these steps:
    - Place the 5.1 KOhm resistors in their designated spots on the PCB.
    - Solder the resistors, ensuring they are securely attached to the board.
   
-## Key takeaways
-- The CH340C can be powered with 3.3V as well as 5V, but its TX voltage perhaps is too high for e.g. an esp32, so powering it with 3.3V seems fine
-- The 3V pin of the CH340C needs to be connected (exclusively) to GND with a 100nF capacitor in between, else it will not work and not show up in windows device manager
-- Connecting it with wrong polarity (5V and GND) gets the chip hot quickly, but doesn't break it when cutting the power off soon (like 20 seconds)
-
 Feel free to explore the design files, contribute, and suggest improvements to this project.
