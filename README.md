@@ -36,3 +36,8 @@ To assemble the USB-C PCB, follow these steps:
    - Solder the resistors, ensuring they are securely attached to the board.
   
 Feel free to explore the design files, contribute, and suggest improvements to this project.
+
+## Resouces
+
+Helpful docs to get a better understanding of the standard:
+- [CC Vconn Signals](https://microchipdeveloper.com/xwiki/bin/view/applications/usb/typec-features/cc-vconn-signals/)
